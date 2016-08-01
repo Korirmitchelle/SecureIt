@@ -6,3 +6,19 @@
      font-family: Arial;
      background: #fff url(../images/backg.jpeg) repeat top left;
  }
+ #content {
+     margin: 0 auto;
+ }
+ .reference {
+     clear: both;
+     top: 300px;
+     left: 0px;
+     position: absolute;
+     text-align: right;
+     width: 400px;
+     padding: 20px;
+     background-color: aliceblue;
+     -moz-box-shadow: 1px 6px 20px #ddd234;
+     -webkit-box-shadow: 1px 6px 20px #ddd234;
+     box-shadow: 1px 6px 20px #ddd234;
+ }
