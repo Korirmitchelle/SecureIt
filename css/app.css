@@ -43,3 +43,22 @@
  .reference p a:hover {
      color: #376345;
  }
+ .description {
+     position: absolute;
+     width: 480px;
+     height: 175px;
+     bottom: 0px;
+     left: 0px;
+     display: none;
+ }
+ .description h2 {
+     color: #444;
+     text-align: left;
+     text-transform: uppercase;
+     font-style: normal;
+     font-weight: bold;
+     letter-spacing: 1px;
+     font-size: 45px;
+     margin: 0px 0px 15px 20px;
+     text-shadow: -1px -1px 1px #ccc;
+ }
