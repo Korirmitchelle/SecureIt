@@ -5,14 +5,34 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
-
-
+    <section class="row">
+        <div class="medium-6 columns">
+            <form action="http://www.example.com/submit.cgi" method="post" name="f">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="firstname" accesskey="f">First name: </label>
+                    <input type="text" id="firstname" name="firstname" value="" tabindex="1">
+                    <label for="lastname" accesskey="l">Last name: </label>
+                    <input type="text" id="lastname" name="lastname" tabindex="2">
+                    <label for="email" accesskey="e">Email: </label>
+                    <input type="text" id="email" name="email" tabindex="3">
+                </fieldset>
+                <fieldset>
+                    <legend>Comments</legend>
+                    <label for="comments" accesskey="c">Your comments: </label>
+                    <textarea id="comments" rows="3" cols="20" name="comments"></textarea>
+                    <input type="submit" value="Submit" tabindex="4">
+                    <input type="Reset" tabindex="5">
+                </fieldset>
+            </form>
+        </div>
+    </section>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
