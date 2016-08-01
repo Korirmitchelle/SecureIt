@@ -9,4 +9,21 @@ form label {
 }
 body {
     background-image: url(../images/backg.jpeg);
+    color: #fff;
+    font-size: 15px;
+}
+form {
+    font: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    max-width: 600px;
+    width: 560px;
+}
+form fieldset {
+    border-color: #ddd111;
+    border-width: 6px;
+    border-style: solid;
+    padding: 10px;
+    margin: 0;
 }
