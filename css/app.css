@@ -49,7 +49,7 @@
      height: 175px;
      bottom: 0px;
      left: 0px;
-     /*display: none;*/
+     display: none;
  }
  .description h2 {
      color: #444;
@@ -81,4 +81,23 @@
  }
  .description a:hover {
      text-decoration: underline;
+ }
+ .sectnDes {
+     height: 340px;
+     left: 0px;
+     width: 100%;
+      display: none;
+     position: absolute;
+     bottom: 0px;
+     background: transparent url(../images/separator.png) repeat-x top left;
+ }
+ .wond {
+     list-style: none;
+     position: absolute;
+     right: 80px;
+     top: 0px;
+     font-family: Cambria, serif;
+     font-size: 16px;
+     font-style: italic;
+     line-height: 1.5em;
  }
