@@ -35,10 +35,17 @@
                  }
                  .title {
                      width: 500px;
-                     height: 152px;
+                     height: 70px;
                      position: absolute;
-                     top: 0px;
-                     left: 0px;
+                     font-size: 55px;
+                     font-style: italic;
+                     color: #ddd117;
+                     top: 230px;
+                     /* text-align: center;*/
+                     background-color: aliceblue;
+                     -moz-box-shadow: 1px 6px 20px #ddd234;
+                     -webkit-box-shadow: 1px 6px 20px #ddd234;
+                     box-shadow: 1px 6px 20px #ddd234;
                  }
                  .reference p a:hover {
                      color: #376345;
