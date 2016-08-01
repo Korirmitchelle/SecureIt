@@ -1,0 +1,8 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ body {
+     font-family: Arial;
+     background: #fff url(../images/backg.jpeg) repeat top left;
+ }
