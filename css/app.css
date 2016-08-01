@@ -15,10 +15,31 @@
      left: 0px;
      position: absolute;
      text-align: right;
-     width: 400px;
      padding: 20px;
      background-color: aliceblue;
      -moz-box-shadow: 1px 6px 20px #ddd234;
      -webkit-box-shadow: 1px 6px 20px #ddd234;
      box-shadow: 1px 6px 20px #ddd234;
+ }
+ .reference p a {
+     text-transform: uppercase;
+     text-shadow: 1px 1px 1px #fff;
+     color: #666;
+     text-decoration: none;
+ }
+ a {
+     color: #444444;
+ }
+ a:hover {
+     color: #949559;
+ }
+ .title {
+     width: 500px;
+     height: 152px;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+ }
+ .reference p a:hover {
+     color: #376345;
  }
